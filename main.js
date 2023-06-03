@@ -1,7 +1,7 @@
 const screen1 = document.querySelector(".screen1") //como pega tags html (seletor)
 const screen2 = document.querySelector(".screen2")
-const imgClick = document.querySelector("#firstImg")
-const btnAgain = document.querySelector("#secondImg")
+const firstImg = document.querySelector("#firstImg")
+const secondImg = document.querySelector("#secondImg")
 
 function handleClick() {
   toggleScreen()
@@ -17,5 +17,5 @@ function buttonAgain() {
   screen2.classList.toggle("hide")
 }
 
-imgClick.addEventListener('click', handleClick())
-btnAgain.addEventListener('click', buttonAgain)
+firstImg.addEventListener('click', handleClick())
+secondImg.addEventListener('click', buttonAgain)
