@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    font-size: 1.6rem;
+  
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  /*screen1*/
+  h1, p {
+    color: #34355B;
+  }
+  
+  h1 {
+    font-family: "Montserrat";
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+  
+  p {
+    font-family: "DM Sans";
+    margin: 1.4rem 0 2rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  main {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+    border-radius: .5rem;
+  
+    padding: 4.8rem 6.4rem;
+  
+    width: min(42.8rem, 90%);
+  
+    text-align: center;
+  }
+  
+  /*screen2*/
+  h2 {
+    background: #E4EDF1;
+    font-family: 'Dancing Script';
+  
+    margin: 2.7rem 0;
+  
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5)
+  }
+  
+  button {
+    margin-top: 1.7rem;
+  
+    background: #FF9500;
+    border-radius: .4rem;
+    border: none;
+  
+    color: #ffffff;
+  
+    font-family: 'DM Sans';
+  
+    padding: 1.6rem;
+  }
+  
+  #firstImg, button:hover {
+    cursor: pointer;
+  }
+  button:hover {
+    background: #eab365;
+    transform: scale(1.05);
+  
+  }
+
+  
